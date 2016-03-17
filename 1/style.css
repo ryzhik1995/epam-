@@ -1,0 +1,24 @@
+th{
+  font-weight: 900;
+}
+td:first-of-type{
+  color:white;
+  background: red;
+}
+tr:nth-of-type(2n+3){
+	background: #eee;
+}
+checked{
+	background: blue;
+}
+:checked~label{
+	color: red;
+}
+td:nth-of-type(2n):first-letter{
+	float:left;
+	font-size: 300%;
+	vertical-align: top;
+}
+[title*=",000,000"]{
+	color: red;
+}
